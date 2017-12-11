@@ -1,6 +1,8 @@
 
 
 #ask user to enter a number then run fizzbuzz on it
+#Come back and insert a break if they enter a string
+
 
 
 userNum=input("Please enter a number between 50 and 100")
