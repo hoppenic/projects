@@ -1,11 +1,11 @@
 
+#testing
 
+newMsg=input("Enter a word")
 
-userMsg=input("Enter a word")
-
-if len(userMsg)>0 and userMsg.isalpha():
-    print(userMsg)
+if len(newMsg) > 0 and newMsg.isalpha():
+    print(newMsg)
 else:
-    print("no")
+    print("enter a word please")
     
         
