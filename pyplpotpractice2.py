@@ -20,24 +20,20 @@ plt.plot(x_values,visits_per_month,marker='v')
 plt.xlabel("Months")
 plt.ylabel('Visits Per Month')
 ax1.set_xticks(x_values)
-ax1.set_xticklabels(months)
-plt.title('Visitors Over Time')
+ax1.set_ticklabels(months)
 
 
 
 ax2=plt.subplot(1,2,2)
 x_values=range(len(months))
-plt.plot(x_values,key_limes_per_month,color='blue',marker='v')
-plt.plot(x_values,persian_limes_per_month,color='black', marker='o')
-plt.plot(x_values,blood_limes_per_month, color='red',marker='x')
-legend_labels=['Key Limes','Persian Limes','Blood Limes']
-plt.legend(legend_labels)
-ax2.set_xticks(x_values)              
-ax2.set_xticklabels(months)
-plt.title('Types of Limes Sold Over Time')
+plt.plot(x_values,key_limes_per_month)
+plt.plot(x_values,persian_limes_per_month)
+plt.plot(x_values,blood_limes_per_month)
+
 
 
 plt.show()
+
 
 
 
