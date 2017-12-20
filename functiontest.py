@@ -1,12 +1,14 @@
 
 
-
-groceryPrices={"apples":2,"meat":5,"cereal":3}
-
-
-for x in groceryPrices:
-    print(groceryPrices[x])
-
+def groceries(x):
+    if x=="apples":
+        print("Let's make cinnamon apples")
+    elif x=="beer":
+        print("let's have pizza and beer")
+    else:
+        print("That sounds good too")
+        
+groceries("tacos")
     
         
 
