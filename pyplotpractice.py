@@ -28,7 +28,7 @@ plt.title('Visitors Over Time')
 ax2=plt.subplot(1,2,2)
 x_values=range(len(months))
 plt.plot(x_values,key_limes_per_month,color='blue',marker='v')
-plt.plot(x_values,persian_limes_per_month,color='black', marker='o')
+plt.plot(x_values,persian_limes_per_month,color='green', marker='o')
 plt.plot(x_values,blood_limes_per_month, color='red',marker='x')
 legend_labels=['Key Limes','Persian Limes','Blood Limes']
 plt.legend(legend_labels)
