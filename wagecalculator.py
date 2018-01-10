@@ -4,8 +4,8 @@
 #ask for pay per hour
 
 
-(hoursWorked)=input('How many hours did you work?')
-(payHour)=input('How much do you make per hour?')
+hoursWorked=input('How many hours did you work?')
+payHour=input('How much do you make per hour?')
 
 #float(hoursWorked)=hoursWorked
 #float(payHour)=payHour
@@ -20,8 +20,10 @@ else:
 #take out 401k(traditional)
 #take out taxes
 
-401k=input('What % of your weekly salary should put put into your 401k?')
+retirement=input('What percentage of your weekly salary should put put into your 401k?')
+retirement=(100-float(retirement))/100
+totalPay=totalPay*(float(retirement))
     
     
 
-print('Your total weekly wage is $',totalPay)
+print('Your total weekly wage less retirement is $',totalPay)
