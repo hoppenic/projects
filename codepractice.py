@@ -1,8 +1,7 @@
 
+#practice or throwaway work
 
-x=50
+x='bananas'
 
-y=x/100
-
-print(y)
+print(type(x))
 
