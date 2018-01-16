@@ -3,5 +3,8 @@
 
 x='bananas'
 
-print(type(x))
+x=x.upper()
+
+print(x)
+
 
